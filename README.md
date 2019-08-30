@@ -25,8 +25,8 @@ In order to run the app you will need an API key for both the [Giphy API](https:
 1. Clone the repo & install the dependencies
 
 ```sh
-~ git clone https://github.com/kkemple/qweather.git
-~ cd qweather
+~ git clone https://github.com/kkemple/gweather.git
+~ cd gweather
 ~ npm install
 ```
 
