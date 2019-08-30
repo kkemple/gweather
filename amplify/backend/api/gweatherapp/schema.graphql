@@ -1,0 +1,20 @@
+type Query {
+  weather(lat: Float!, lon: Float!): Weather
+    @function(name: "getweather-${env}")
+}
+
+type Weather {
+  timezone: String
+  current: WeatherSummary!
+  hourly: WeatherSummary!
+  weekly: WeatherSummary!
+  icon: String!
+  temperature: Int!
+  feelsLike: Int!
+  gif: String!
+}
+
+type WeatherSummary {
+  summary: String!
+  icon: String!
+}
